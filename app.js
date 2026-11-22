@@ -12,6 +12,10 @@
   const SESSION_SIZE = 10;
   const KEY = "esat-practice-v1";
   const LETTERS = "ABCDEFGH";
+  const LEVELS = {
+    foundation: { label: "Foundation", tag: "f", note: "Easier than the real test: for building confidence" },
+    esat: { label: "ESAT level", tag: "e", note: "Real test standard" },
+  };
 
   const Q = window.QUESTIONS || [];
   const byId = Object.fromEntries(Q.map(q => [q.id, q]));
@@ -22,9 +26,18 @@
   function load() {
     try {
       const s = JSON.parse(localStorage.getItem(KEY));
-      if (s && s.version === 1) return Object.assign(blank(), s);
+      if (s && s.version === 1) return migrate(Object.assign(blank(), s));
     } catch (e) { /* storage unavailable or corrupt */ }
     return blank();
+  }
+  // Set ids gained a level tag ("m1-1" became "m1-f1") when ESAT-level sets were added.
+  function migrate(s) {
+    for (const k of Object.keys(s.sets)) {
+      const m = k.match(/^([a-z0-9]+)-(\d+)$/);
+      if (m) { s.sets[`${m[1]}-f${m[2]}`] = s.sets[k]; delete s.sets[k]; }
+    }
+    for (const a of s.attempts) { const m = a.setId && a.setId.match(/^([a-z0-9]+)-(\d+)$/); if (m) a.setId = `${m[1]}-f${m[2]}`; }
+    return s;
   }
   let S = load();
   function save() { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { /* ignore */ } }
@@ -46,11 +59,15 @@
   function sets() {
     const out = [];
     for (const m of MODULES) {
-      const nums = [...new Set(Q.filter(q => q.module === m.id).map(q => q.set))].sort((a, b) => a - b);
-      for (const n of nums) out.push({ id: `${m.id}-${n}`, module: m.id, n, qs: Q.filter(q => q.module === m.id && q.set === n) });
+      for (const lv of Object.keys(LEVELS)) {
+        const inLv = Q.filter(q => q.module === m.id && q.level === lv);
+        const nums = [...new Set(inLv.map(q => q.set))].sort((a, b) => a - b);
+        for (const n of nums) out.push({ id: `${m.id}-${LEVELS[lv].tag}${n}`, module: m.id, level: lv, n, label: `${LEVELS[lv].label} ${n}`, qs: inLv.filter(q => q.set === n) });
+      }
     }
     return out;
   }
+  const setById = id => sets().find(s => s.id === id);
   function chosenModules() { return S.modules && S.modules.length ? S.modules : MODULES.map(m => m.id); }
 
   // ------------------------------------------------------------- home
@@ -66,7 +83,8 @@
     const correct = S.attempts.reduce((n, a) => n + a.items.filter(i => i.correct).length, 0);
 
     let h = `<h1>ESAT practice</h1>
-      <p class="lede">Each set is ${SESSION_SIZE} questions in 15 minutes, the same pace as the real test (27 questions in 40 minutes). No calculator.</p>`;
+      <p class="lede">Each set is ${SESSION_SIZE} questions in 15 minutes, the same pace as the real test (27 questions in 40 minutes). No calculator.
+      <b>Foundation</b> sets are easier than the real test and a good place to start. <b>ESAT level</b> sets are the standard to aim for.</p>`;
 
     if (S.current && S.current.end > Date.now()) {
       h += `<div class="card"><div class="card-head"><h2>Session in progress</h2></div>
@@ -96,7 +114,7 @@
         }
         const when = st && st.date ? `Last ${fmtDate(st.date)}` : `${s.qs.length} questions · 15 min`;
         h += `<div class="set-row">
-          <div class="set-name">Set ${s.n}<span class="small">${when}</span></div>
+          <div class="set-name">${s.label}<span class="small">${LEVELS[s.level].note} · ${when}</span></div>
           ${badge}
           <div class="btn-row">
             <button class="btn" data-act="start" data-id="${s.id}">${st && st.best != null ? "Retake" : "Start"}</button>
@@ -107,6 +125,7 @@
     }
 
     h += `<div class="card"><div class="card-head"><h2>Quick mix</h2><span class="small">10 questions from your modules, favouring ones not yet seen or got wrong</span></div>
+      <div class="chips">${Object.entries(LEVELS).map(([k, v]) => `<button class="chip ${mixLevel() === k ? "on" : ""}" data-act="mixlevel" data-id="${k}">${v.label}</button>`).join("")}</div>
       <button class="btn ghost" data-act="mix">Start a 15-minute mix</button></div>`;
 
     h += topicTable();
@@ -122,6 +141,8 @@
     $app.innerHTML = h;
     window.scrollTo(0, 0);
   }
+
+  function mixLevel() { return S.mixLevel || "esat"; }
 
   function topicTable() {
     const t = {};
@@ -149,9 +170,9 @@
   function startSession(kind, setId) {
     let qs;
     if (kind === "set") {
-      qs = sets().find(s => s.id === setId).qs.map(q => q.id);
+      qs = setById(setId).qs.map(q => q.id);
     } else {
-      const pool = Q.filter(q => chosenModules().includes(q.module));
+      const pool = Q.filter(q => chosenModules().includes(q.module) && q.level === mixLevel());
       const score = q => { const r = S.q[q.id]; if (!r) return 0; return r.correct < r.seen ? 1 : 2; };
       qs = shuffle(pool).sort((a, b) => score(a) - score(b)).slice(0, SESSION_SIZE).map(q => q.id);
       qs = shuffle(qs);
@@ -159,7 +180,7 @@
     S.current = {
       kind, setId: setId || null,
       qs,
-      order: Object.fromEntries(qs.map(id => [id, shuffle(byId[id].options.map((_, i) => i))])),
+      order: Object.fromEntries(qs.map(id => { const o = byId[id].options.map((_, i) => i); return [id, byId[id].fixed ? o : shuffle(o)]; })),
       answers: {}, flags: {}, i: 0,
       start: Date.now(), end: Date.now() + SESSION_SECONDS * 1000,
     };
@@ -173,7 +194,7 @@
     document.getElementById("foot").hidden = true;
     const q = byId[c.qs[c.i]];
     const order = c.order[q.id];
-    const title = c.kind === "set" ? `${modName(q.module)} · Set ${q.set}` : "Quick mix";
+    const title = c.kind === "set" ? `${modName(q.module)} · ${setById(c.setId).label}` : `Quick mix · ${LEVELS[mixLevel()].label}`;
     document.getElementById("qcount").textContent = `${c.i + 1} / ${c.qs.length}`;
 
     let h = `<div class="dots">${c.qs.map((id, k) =>
@@ -243,7 +264,8 @@
     document.getElementById("session-bar").hidden = true;
     document.getElementById("foot").hidden = false;
     const a = S.attempts[idx];
-    const title = a.setId ? `${modName(a.setId.split("-")[0])} · Set ${a.setId.split("-")[1]}` : "Quick mix";
+    const st = a.setId && setById(a.setId);
+    const title = st ? `${modName(st.module)} · ${st.label}` : "Quick mix";
     const mm = `${Math.floor(a.used / 60)}:${String(a.used % 60).padStart(2, "0")}`;
     let h = `<div class="card"><div class="small">${esc(title)}</div>
       <div class="score"><b>${a.score}/${a.items.length}</b>
@@ -283,6 +305,7 @@
       case "resume": session(); break;
       case "abandon": S.current = null; save(); home(); break;
       case "home": home(); break;
+      case "mixlevel": S.mixLevel = b.dataset.id; save(); home(); break;
       case "mod": {
         let m = chosenModules().slice();
         const id = b.dataset.id;

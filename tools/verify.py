@@ -196,3 +196,208 @@ def run(Q):
         assert q["options"].count(exp) == 1, q["id"]
     assert not missing, f"no check for {missing}"
     print("verified", len(Q), "questions")
+
+
+# ================================================================ ESAT-level checks
+S8 = ["none of them", "1 only", "2 only", "3 only", "1 and 2 only", "1 and 3 only", "2 and 3 only", "1, 2 and 3"]
+def stmt(t1, t2, t3):
+    k = (t1, t2, t3)
+    table = {(0,0,0):0,(1,0,0):1,(0,1,0):2,(0,0,1):3,(1,1,0):4,(1,0,1):5,(0,1,1):6,(1,1,1):7}
+    return S8[table[tuple(int(bool(v)) for v in k)]]
+
+@check("M1E-01")
+def _():
+    return stmt(sp.nsimplify((sp.sqrt(2)+sp.sqrt(8))**2) == 18,
+                sp.nsimplify(sp.Integer(8)**sp.Rational(2,3) * sp.Integer(4)**sp.Rational(-1,2)) == 4,
+                3*3**20 == 3**21)
+@check("M1E-02")
+def _():
+    a, r = sp.symbols("a r", positive=True)
+    sol = sp.solve(sp.Eq(6*a**2, 4*sp.pi*r**2), a)[0]
+    assert sp.simplify(sol - r*sp.sqrt(2*sp.pi/3)) == 0
+    # no other option is numerically equal
+    for alt in [r*sp.sqrt(3*sp.pi/2), 2*sp.pi*r/3, r*sp.sqrt(sp.pi/6), r*sp.sqrt(2*sp.pi)/3, r*sp.sqrt(6*sp.pi)]:
+        assert abs(float((alt - sol).subs(r, 1))) > 1e-6
+    return r"\(r\sqrt{\dfrac{2\pi}{3}}\)"
+@check("M1E-03")
+def _():
+    P, Qp, R = (4, 0), (12, 6), (9, 12)  # A(0,0) B(12,0) C(12,12) D(0,12)
+    area = F(abs(P[0]*(Qp[1]-R[1]) + Qp[0]*(R[1]-P[1]) + R[0]*(P[1]-Qp[1])), 2)
+    assert area == 33; return r"\(33\)"
+@check("M1E-04")
+def _(): v = 1/(F(1,9) - F(1,12)); assert v == 36; return r"\(36\)"
+@check("M1E-05")
+def _():
+    for xb in range(0, 50):
+        pb = F(3,5)*F(xb, xb+4) + F(2,5)*F(xb+1, xb+4)
+        if pb == F(3,5):
+            ans = F(3,5)*F(xb, xb+4) / pb; assert xb == 5 and ans == F(5,9); return r"\(\dfrac59\)"
+@check("M1E-06")
+def _():
+    e = sp.cancel(((x**2-9)/(x**2+x-6)) / ((x**2-2*x-3)/(x**2-4)))
+    assert sp.simplify(e - (x+2)/(x+1)) == 0; return r"\(\dfrac{x+2}{x+1}\)"
+@check("M1E-07")
+def _():
+    a, b = sp.symbols("a b"); s = sp.solve([9*a+3*b-21, 25*a+5*b-55], [a, b])
+    assert 100*s[a] + 10*s[b] == 210; return r"\(210\)"
+@check("M1E-08")
+def _(): assert 1 - 1/F(5,4)**2 == F(36,100); return r"\(36\%\)"
+@check("M1E-09")
+def _(): assert F(20*15 - 18*14, 3) == 16; return r"\(16\)"
+@check("M1E-10")
+def _():
+    bc = sp.sqrt(36 + 16 - 2*6*4*sp.Rational(1,2)); area = sp.Rational(1,2)*6*4*sp.sqrt(3)/2
+    h = sp.nsimplify(2*area/bc); assert sp.simplify(h - 6*sp.sqrt(21)/7) == 0; return r"\(\dfrac{6\sqrt{21}}{7}\)"
+# Maths 2
+@check("M2E-01")
+def _():
+    k = sp.symbols("k"); ks = sp.solve(sp.discriminant(x**2-2*x+4-k*x, x), k)
+    assert sorted(ks) == [-6, 2]; return r"\(2\) and \(-6\)"
+@check("M2E-02")
+def _():
+    s = sp.solve(sp.Eq(9**x - 4*3**(x+1) + 27, 0), x); assert sp.nsimplify(sum(s)) == 3; return r"\(3\)"
+@check("M2E-03")
+def _():
+    s = sp.solveset(2*sp.cos(x)**2 + 3*sp.sin(x) - 3, x, sp.Interval(0, 2*sp.pi))
+    assert sp.simplify(sum(s) - 3*sp.pi/2) == 0; return r"\(\dfrac{3\pi}{2}\)"
+@check("M2E-04")
+def _():
+    r = sp.symbols("r", positive=True); S = 2*sp.pi*r**2 + 2*sp.pi*r*(16/r**2)
+    rc = sp.solve(sp.diff(S, r), r)[0]; assert sp.simplify(S.subs(r, rc) - 24*sp.pi) == 0; return r"\(24\pi\)"
+@check("M2E-05")
+def _():
+    f = x**2 - 4*x + 3; A = sp.integrate(f, (x, 0, 1)) - sp.integrate(f, (x, 1, 3))
+    assert A == sp.Rational(8,3) and sp.integrate(f, (x, 0, 3)) == 0; return r"\(\dfrac83\)"
+@check("M2E-06")
+def _():
+    a = sp.Integer(2); b = a**3  # any valid base works
+    assert sp.nsimplify(sp.log(a**2*b, b)) == sp.Rational(5,3); return r"\(\dfrac53\)"
+@check("M2E-07")
+def _():
+    a, d = sp.symbols("a d"); s = sp.solve([5*(2*a+9*d)-145, 10*(2*a+19*d)-590], [a, d])
+    Sn = lambda n: sp.Rational(n,2)*(2*s[a] + (n-1)*s[d]); assert Sn(30) - Sn(20) == 745; return r"\(745\)"
+@check("M2E-08")
+def _():
+    f = lambda t: 5 - (t-2)**2; g = 3 - 2*f(x+1)
+    xs = sp.solve(sp.diff(g, x), x); assert xs == [1] and g.subs(x, 1) == -7 and sp.diff(g, x, 2) > 0
+    return r"minimum at \((1, -7)\)"
+@check("M2E-09")
+def _(): assert sp.expand((1+2*x)**5*(1-x)**3).coeff(x, 2) == 13; return r"\(13\)"
+@check("M2E-10")
+def _():
+    pts = sp.solve([(x-2)**2 + (y-1)**2 - 10, y - x - 1], [x, y]); (a, b), (c, d) = pts
+    assert sp.simplify(sp.sqrt((a-c)**2 + (b-d)**2) - 4*sp.sqrt(2)) == 0; return r"\(4\sqrt{2}\)"
+# Physics
+@check("PE-01")
+def _():
+    k, xx, m, g, h = sp.symbols("k x m g h", positive=True)
+    assert sp.solve(sp.Eq(k*xx**2/2, m*g*h), h) == [k*xx**2/(2*m*g)]; return r"\(\dfrac{kx^2}{2mg}\)"
+@check("PE-02")
+def _():
+    Popen = F(144, 4+6); Pclosed = F(144, 4 + F(6*3, 9)); assert Pclosed/Popen == F(5,3); return r"\(\dfrac53\)"
+@check("PE-03")
+def _():
+    # numeric simulation: speed at landing independent of angle
+    u, H, g = 7.0, 20.0, 9.81
+    for th in (0, 0.4, 1.0):
+        vx, vy = u*math.cos(th), u*math.sin(th)
+        t = (vy + math.sqrt(vy**2 + 2*g*H))/g
+        assert abs(math.hypot(vx, vy - g*t) - math.sqrt(u*u + 2*g*H)) < 1e-9
+    return r"\(\sqrt{u^2 + 2gH}\)"
+@check("PE-04")
+def _():
+    t = sp.symbols("t", positive=True); assert sp.solve(sp.Eq(8*2**(-t/2), 2**(-t/6)), t) == [9]; return r"9 hours"
+@check("PE-05")
+def _():
+    m, M, u, g = sp.symbols("m M u g", positive=True); v = m*u/(m+M)
+    assert sp.simplify(v**2/(2*g) - m**2*u**2/(2*g*(m+M)**2)) == 0; return r"\(\dfrac{m^2u^2}{2g(m+M)^2}\)"
+@check("PE-06")
+def _():
+    c, n, lam = 3e8, 1.5, 600e-9; f = c/lam
+    return stmt(False, abs(c/n/f - 400e-9) < 1e-15, abs(c/n - 2e8) < 1)
+@check("PE-07")
+def _():
+    RX = F(1, 1); RY = RX * 2 / 4; assert (1/RY)/(1/RX) == 2; return r"\(2\)"
+@check("PE-08")
+def _():
+    E = 0.2*2000*10 + 0.2*3.3e5 + 0.2*4200*20; assert abs(E/200 - 434) < 1e-9; return r"\(434\text{ s}\)"
+@check("PE-09")
+def _():
+    W, L = F(1), F(1); FL = (W*L/2 + 2*W*F(3,4)*L)/L; FR = 3*W - FL; assert FL/FR == 2; return r"\(2 : 1\)"
+@check("PE-10")
+def _():
+    loss = lambda V: (1e4/V)**2*4/1e4*100
+    assert abs(loss(1e3) - 4) < 1e-9 and abs(loss(1e4) - 0.04) < 1e-12; return r"(i) 4%, (ii) 0.04%"
+# Chemistry
+@check("CE-01")
+def _(): assert abs(0.40*0.250*5 - 0.5) < 1e-12; return r"\(0.50\)"
+@check("CE-02")
+def _():
+    mol_fe = 5.6e6/56; m_ox = mol_fe/2*160; assert abs(m_ox/0.8/1e6 - 10) < 1e-9; return r"\(10\) t"
+@check("CE-03")
+def _():
+    # check the equation balances (atoms and charge) then the volume
+    lhs = {"Mn": 1, "O": 4, "H": 8, "Fe": 5, "q": -1 + 8 + 10}; rhs = {"Mn": 1, "Fe": 5, "H": 8, "O": 4, "q": 2 + 15}
+    assert lhs == rhs
+    v = 0.10*0.0250/5/0.020*1000; assert abs(v - 25.0) < 1e-9; return r"\(25.0\text{ cm}^3\)"
+@check("CE-04")
+def _(): return stmt(True, False, True)
+@check("CE-05")
+def _():
+    # enumerate C4 skeletons and distinct carbon positions for Br by symmetry
+    butane = {0: [1], 1: [0, 2], 2: [1, 3], 3: [2]}; isobutane = {0: [1], 1: [0, 2, 3], 2: [1], 3: [1]}
+    import networkx as nx
+    def classes(adj):
+        G = nx.Graph([(a, b) for a in adj for b in adj[a]])
+        orbits = set()
+        for p in nx.algorithms.isomorphism.GraphMatcher(G, G).isomorphisms_iter():
+            pass
+        seen, cls = set(), 0
+        autos = list(nx.algorithms.isomorphism.GraphMatcher(G, G).isomorphisms_iter())
+        for v in G:
+            if v in seen: continue
+            orb = {a[v] for a in autos}; seen |= orb; cls += 1
+        return cls
+    assert classes(butane) + classes(isobutane) == 4; return r"\(4\)"
+@check("CE-06")
+def _(): assert (436 + 242 - 2*431)/2 == -92; return r"\(-92\text{ kJ}\)"
+@check("CE-09")
+def _():
+    mg = 2.4/24; hcl = 0.100*1.0; h2 = min(mg, hcl/2); assert abs(h2*24 - 1.2) < 1e-12; return r"\(1.2\text{ dm}^3\)"
+@check("CE-10")
+def _(): xw = ((2.46 - 1.20)/18)/(1.20/120); assert abs(xw - 7) < 1e-9; return r"\(7\)"
+# Biology
+@check("BE-02")
+def _():
+    npp = 20000 - 12000; return stmt(npp/20000 == 0.4, 2000/npp == 0.25, 2000 - 800 - 1000 == 1200)
+@check("BE-03")
+def _():
+    rate = sp.pi*1**2*15/5; assert rate == 3*sp.pi; return r"water uptake; \(3\pi\text{ mm}^3\text{ min}^{-1}\)"
+@check("BE-04")
+def _():
+    kids = [(p1+p2, t1+t2) for p1 in "Pp" for p2 in "Pp" for t1 in "Tt" for t2 in "tt"]
+    fr = F(sum("P" in p and "T" not in t for p, t in kids), len(kids)); assert fr == F(3,8); return r"\(\dfrac38\)"
+@check("BE-05")
+def _(): return stmt(True, True, False)
+@check("BE-06")
+def _(): return stmt(True, True, True)
+@check("BE-07")
+def _():
+    o2 = [20, 10, 2, 0, 0]; eth = [0, 0, 1, 4, 8]; glu = [100, 90, 70, 45, 25]
+    drops = [glu[i] - glu[i+1] for i in range(4)]
+    s1 = eth[1] == 0
+    s2 = drops.index(max(drops)) == 3
+    s3 = all(o2[i] == 0 for i in range(5) if eth[i] > 0)
+    return stmt(s1, s2, s3)
+@check("BE-08")
+def _():
+    sv = 5600/56; co = sv*1.5*160/1000; assert sv == 100 and co == 24
+    return r"\(100\text{ cm}^3\); \(24\text{ dm}^3\text{ min}^{-1}\)"
+
+CONCEPTUAL.update({
+    "CE-07": "rate increases; yield decreases",
+    "CE-08": r"\(\text{Ca}^{2+}\)",
+    "BE-01": "(i) mutualism; (ii) predation",
+    "BE-09": "1, 2 and 5 only",
+    "BE-10": "ADH secretion decreases; collecting ducts become less permeable to water; urine volume increases",
+})

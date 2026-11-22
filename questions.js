@@ -3,6 +3,7 @@ window.QUESTIONS = [
  {
   "id": "M1-01",
   "module": "m1",
+  "level": "foundation",
   "set": 1,
   "topic": "Surds",
   "q": "What is the value of \\((\\sqrt{12} + \\sqrt{27})^2\\)?",
@@ -19,6 +20,7 @@ window.QUESTIONS = [
  {
   "id": "M1-02",
   "module": "m1",
+  "level": "foundation",
   "set": 1,
   "topic": "Algebra: rearranging",
   "q": "Given \\(y = \\dfrac{2x + 3}{x - 1}\\), which of the following expresses \\(x\\) in terms of \\(y\\)?",
@@ -35,6 +37,7 @@ window.QUESTIONS = [
  {
   "id": "M1-03",
   "module": "m1",
+  "level": "foundation",
   "set": 1,
   "topic": "Percentages",
   "q": "The price of an item is increased by 20% and the new price is then decreased by 25%. What is the overall percentage change from the original price?",
@@ -51,6 +54,7 @@ window.QUESTIONS = [
  {
   "id": "M1-04",
   "module": "m1",
+  "level": "foundation",
   "set": 1,
   "topic": "Simultaneous equations",
   "q": "The line \\(y = x + 1\\) meets the circle \\(x^2 + y^2 = 25\\) at two points. What is the distance between these two points?",
@@ -68,6 +72,7 @@ window.QUESTIONS = [
  {
   "id": "M1-05",
   "module": "m1",
+  "level": "foundation",
   "set": 1,
   "topic": "Probability",
   "q": "A bag contains 4 red and 6 blue counters. Two counters are taken at random without replacement. What is the probability that they are different colours?",
@@ -84,6 +89,7 @@ window.QUESTIONS = [
  {
   "id": "M1-06",
   "module": "m1",
+  "level": "foundation",
   "set": 1,
   "topic": "Ratio",
   "q": "\\(a : b = 3 : 4\\) and \\(b : c = 6 : 5\\). Given that \\(a + b + c = 155\\), what is the value of \\(c\\)?",
@@ -101,6 +107,7 @@ window.QUESTIONS = [
  {
   "id": "M1-07",
   "module": "m1",
+  "level": "foundation",
   "set": 1,
   "topic": "Averages",
   "q": "The mean of five numbers is 12. One number is removed and the mean of the remaining four numbers is 10. What number was removed?",
@@ -117,6 +124,7 @@ window.QUESTIONS = [
  {
   "id": "M1-08",
   "module": "m1",
+  "level": "foundation",
   "set": 1,
   "topic": "Circles: arcs and sectors",
   "q": "A sector of a circle has radius 6 cm and angle \\(40^\\circ\\). What is the perimeter of the sector, in cm?",
@@ -134,6 +142,7 @@ window.QUESTIONS = [
  {
   "id": "M1-09",
   "module": "m1",
+  "level": "foundation",
   "set": 1,
   "topic": "Surds",
   "q": "Which of the following is equal to \\(\\dfrac{6}{3 - \\sqrt{3}}\\)?",
@@ -150,6 +159,7 @@ window.QUESTIONS = [
  {
   "id": "M1-10",
   "module": "m1",
+  "level": "foundation",
   "set": 1,
   "topic": "Proportion",
   "q": "\\(y\\) is inversely proportional to \\(x^2\\). If \\(x\\) is increased by 50%, by what factor is \\(y\\) multiplied?",
@@ -166,6 +176,7 @@ window.QUESTIONS = [
  {
   "id": "M1-11",
   "module": "m1",
+  "level": "foundation",
   "set": 2,
   "topic": "Inequalities",
   "q": "How many integers \\(x\\) satisfy \\(x^2 - 5x - 14 < 0\\)?",
@@ -182,6 +193,7 @@ window.QUESTIONS = [
  {
   "id": "M1-12",
   "module": "m1",
+  "level": "foundation",
   "set": 2,
   "topic": "Trigonometry: cosine rule",
   "q": "A triangle has sides of length 5, 7 and 8. What is the size of the angle opposite the side of length 7?",
@@ -198,6 +210,7 @@ window.QUESTIONS = [
  {
   "id": "M1-13",
   "module": "m1",
+  "level": "foundation",
   "set": 2,
   "topic": "Indices",
   "q": "Solve \\(2^{x+1} \\times 4^{x} = 32\\).",
@@ -214,6 +227,7 @@ window.QUESTIONS = [
  {
   "id": "M1-14",
   "module": "m1",
+  "level": "foundation",
   "set": 2,
   "topic": "Speed, distance, time",
   "q": "A car travels 30 km at 60 km/h and then a further 30 km at 40 km/h. What is its average speed for the whole journey, in km/h?",
@@ -230,6 +244,7 @@ window.QUESTIONS = [
  {
   "id": "M1-15",
   "module": "m1",
+  "level": "foundation",
   "set": 2,
   "topic": "Mensuration: volume",
   "q": "A sphere of radius \\(r\\) has the same volume as a cylinder of radius \\(r\\). What is the height of the cylinder?",
@@ -246,6 +261,7 @@ window.QUESTIONS = [
  {
   "id": "M1-16",
   "module": "m1",
+  "level": "foundation",
   "set": 2,
   "topic": "Coordinate geometry: lines",
   "q": "Which line passes through \\((1, 2)\\) and is perpendicular to \\(2x + 3y = 6\\)?",
@@ -262,6 +278,7 @@ window.QUESTIONS = [
  {
   "id": "M1-17",
   "module": "m1",
+  "level": "foundation",
   "set": 2,
   "topic": "Standard form",
   "q": "What is \\(\\dfrac{(6 \\times 10^{5}) \\times (4 \\times 10^{-8})}{8 \\times 10^{-2}}\\)?",
@@ -278,6 +295,7 @@ window.QUESTIONS = [
  {
   "id": "M1-18",
   "module": "m1",
+  "level": "foundation",
   "set": 2,
   "topic": "Averages",
   "q": "Five positive integers have mean 6, median 5 and a unique mode of 3. What is the largest possible value of the largest integer?",
@@ -294,6 +312,7 @@ window.QUESTIONS = [
  {
   "id": "M1-19",
   "module": "m1",
+  "level": "foundation",
   "set": 2,
   "topic": "Similarity",
   "q": "Two cones are mathematically similar. The ratio of their surface areas is \\(4 : 9\\). The smaller cone has volume \\(40\\text{ cm}^3\\). What is the volume of the larger cone, in \\(\\text{cm}^3\\)?",
@@ -310,6 +329,7 @@ window.QUESTIONS = [
  {
   "id": "M1-20",
   "module": "m1",
+  "level": "foundation",
   "set": 2,
   "topic": "Probability",
   "q": "Events \\(A\\) and \\(B\\) are independent, with \\(P(A) = 0.3\\) and \\(P(B) = 0.5\\). What is the probability that exactly one of \\(A\\) and \\(B\\) occurs?",
@@ -326,6 +346,7 @@ window.QUESTIONS = [
  {
   "id": "M2-01",
   "module": "m2",
+  "level": "foundation",
   "set": 1,
   "topic": "Integration",
   "q": "Evaluate \\(\\displaystyle\\int_0^2 (3x^2 - 2x + 1)\\,dx\\).",
@@ -342,6 +363,7 @@ window.QUESTIONS = [
  {
   "id": "M2-02",
   "module": "m2",
+  "level": "foundation",
   "set": 1,
   "topic": "Differentiation: stationary points",
   "q": "What is the greatest value of \\(y = x^3 - 6x^2 + 9x + 1\\) for \\(0 \\le x \\le 5\\)?",
@@ -358,6 +380,7 @@ window.QUESTIONS = [
  {
   "id": "M2-03",
   "module": "m2",
+  "level": "foundation",
   "set": 1,
   "topic": "Logarithms",
   "q": "Find all real solutions of \\(\\log_2 x + \\log_2 (x - 2) = 3\\).",
@@ -374,6 +397,7 @@ window.QUESTIONS = [
  {
   "id": "M2-04",
   "module": "m2",
+  "level": "foundation",
   "set": 1,
   "topic": "Geometric series",
   "q": "A geometric series has first term 12 and sum to infinity 18. What is the third term?",
@@ -390,6 +414,7 @@ window.QUESTIONS = [
  {
   "id": "M2-05",
   "module": "m2",
+  "level": "foundation",
   "set": 1,
   "topic": "Trigonometric equations",
   "q": "How many solutions does \\(\\sin 2x = \\cos x\\) have for \\(0 \\le x \\le 2\\pi\\)?",
@@ -406,6 +431,7 @@ window.QUESTIONS = [
  {
   "id": "M2-06",
   "module": "m2",
+  "level": "foundation",
   "set": 1,
   "topic": "Binomial expansion",
   "q": "What is the coefficient of \\(x^3\\) in the expansion of \\((2 - x)^6\\)?",
@@ -422,6 +448,7 @@ window.QUESTIONS = [
  {
   "id": "M2-07",
   "module": "m2",
+  "level": "foundation",
   "set": 1,
   "topic": "Coordinate geometry: circles",
   "q": "The circle \\(x^2 + y^2 - 6x + 4y - 12 = 0\\) is given. What is the length of a tangent drawn to the circle from the point \\((10, 2)\\)?",
@@ -438,6 +465,7 @@ window.QUESTIONS = [
  {
   "id": "M2-08",
   "module": "m2",
+  "level": "foundation",
   "set": 1,
   "topic": "Integration: area",
   "q": "What is the area of the finite region enclosed by \\(y = x^2\\) and \\(y = 2x\\)?",
@@ -454,6 +482,7 @@ window.QUESTIONS = [
  {
   "id": "M2-09",
   "module": "m2",
+  "level": "foundation",
   "set": 1,
   "topic": "Functions: composition",
   "q": "\\(f(x) = 2x + 1\\) and \\(g(x) = x^2\\). What is the sum of all solutions of \\(fg(x) = gf(x)\\)?",
@@ -470,6 +499,7 @@ window.QUESTIONS = [
  {
   "id": "M2-10",
   "module": "m2",
+  "level": "foundation",
   "set": 1,
   "topic": "Arithmetic series",
   "q": "The sum of the first \\(n\\) terms of a sequence is \\(S_n = 3n^2 + 2n\\). What is the 10th term?",
@@ -486,6 +516,7 @@ window.QUESTIONS = [
  {
   "id": "P-01",
   "module": "phys",
+  "level": "foundation",
   "set": 1,
   "topic": "Kinematics",
   "q": "A car accelerates uniformly from rest to \\(20\\text{ m s}^{-1}\\) in 8.0 s. How far does it travel in this time?",
@@ -502,6 +533,7 @@ window.QUESTIONS = [
  {
   "id": "P-02",
   "module": "phys",
+  "level": "foundation",
   "set": 1,
   "topic": "Projectiles",
   "q": "A ball is thrown horizontally at \\(15\\text{ m s}^{-1}\\) from the top of a cliff 45 m high. Ignoring air resistance and taking \\(g = 10\\text{ m s}^{-2}\\), how far from the base of the cliff does it land?",
@@ -518,6 +550,7 @@ window.QUESTIONS = [
  {
   "id": "P-03",
   "module": "phys",
+  "level": "foundation",
   "set": 1,
   "topic": "Circuits",
   "q": "A \\(6\\,\\Omega\\) resistor and a \\(3\\,\\Omega\\) resistor are connected in parallel. This combination is connected in series with a \\(4\\,\\Omega\\) resistor across a 12 V supply of negligible internal resistance. What is the current in the \\(3\\,\\Omega\\) resistor?",
@@ -534,6 +567,7 @@ window.QUESTIONS = [
  {
   "id": "P-04",
   "module": "phys",
+  "level": "foundation",
   "set": 1,
   "topic": "Thermal physics",
   "q": "A 2.0 kW kettle heats 0.50 kg of water from \\(20^\\circ\\text{C}\\) to \\(100^\\circ\\text{C}\\). The specific heat capacity of water is \\(4200\\text{ J kg}^{-1}\\,\\text{K}^{-1}\\). Assuming no energy losses, how long does this take?",
@@ -550,6 +584,7 @@ window.QUESTIONS = [
  {
   "id": "P-05",
   "module": "phys",
+  "level": "foundation",
   "set": 1,
   "topic": "Waves",
   "q": "A wave has frequency 50 Hz and wavelength 40 cm. How long does it take to travel 100 m?",
@@ -566,6 +601,7 @@ window.QUESTIONS = [
  {
   "id": "P-06",
   "module": "phys",
+  "level": "foundation",
   "set": 1,
   "topic": "Radioactivity",
   "q": "A radioactive isotope has a half-life of 6 hours. What fraction of the original nuclei has decayed after 1 day?",
@@ -582,6 +618,7 @@ window.QUESTIONS = [
  {
   "id": "P-07",
   "module": "phys",
+  "level": "foundation",
   "set": 1,
   "topic": "Momentum and energy",
   "q": "A 2.0 kg trolley moving at \\(3.0\\text{ m s}^{-1}\\) collides with a stationary 1.0 kg trolley. They stick together. How much kinetic energy is lost in the collision?",
@@ -598,6 +635,7 @@ window.QUESTIONS = [
  {
   "id": "P-08",
   "module": "phys",
+  "level": "foundation",
   "set": 1,
   "topic": "Power and efficiency",
   "q": "A motor lifts a 50 kg load vertically through 12 m in 20 s at constant speed. The motor is 60% efficient. What is the electrical power input to the motor? (\\(g = 10\\text{ N kg}^{-1}\\))",
@@ -614,6 +652,7 @@ window.QUESTIONS = [
  {
   "id": "P-09",
   "module": "phys",
+  "level": "foundation",
   "set": 1,
   "topic": "Pressure in fluids",
   "q": "Atmospheric pressure is \\(1.0 \\times 10^5\\text{ Pa}\\) and the density of water is \\(1000\\text{ kg m}^{-3}\\). What is the total pressure on a diver 20 m below the surface of a lake? (\\(g = 10\\text{ N kg}^{-1}\\))",
@@ -630,6 +669,7 @@ window.QUESTIONS = [
  {
   "id": "P-10",
   "module": "phys",
+  "level": "foundation",
   "set": 1,
   "topic": "Transformers",
   "q": "An ideal transformer has 2000 turns on its primary coil, which is connected to a 240 V supply. The secondary output is 12 V and the secondary current is 4.0 A. What are the number of secondary turns and the primary current?",
@@ -646,6 +686,7 @@ window.QUESTIONS = [
  {
   "id": "C-01",
   "module": "chem",
+  "level": "foundation",
   "set": 1,
   "topic": "Moles",
   "q": "What is the mass of 0.25 mol of calcium carbonate, \\(\\text{CaCO}_3\\)? (\\(A_r\\): Ca = 40, C = 12, O = 16)",
@@ -662,6 +703,7 @@ window.QUESTIONS = [
  {
   "id": "C-02",
   "module": "chem",
+  "level": "foundation",
   "set": 1,
   "topic": "Balancing equations",
   "q": "Propane burns completely: \\(\\text{C}_3\\text{H}_8 + a\\,\\text{O}_2 \\rightarrow b\\,\\text{CO}_2 + c\\,\\text{H}_2\\text{O}\\). In the balanced equation with smallest whole numbers, what is \\(a + b + c\\)?",
@@ -678,6 +720,7 @@ window.QUESTIONS = [
  {
   "id": "C-03",
   "module": "chem",
+  "level": "foundation",
   "set": 1,
   "topic": "Titration calculations",
   "q": "\\(25.0\\text{ cm}^3\\) of sodium hydroxide solution is exactly neutralised by \\(20.0\\text{ cm}^3\\) of \\(0.150\\text{ mol dm}^{-3}\\) sulfuric acid. What is the concentration of the sodium hydroxide?",
@@ -694,6 +737,7 @@ window.QUESTIONS = [
  {
   "id": "C-04",
   "module": "chem",
+  "level": "foundation",
   "set": 1,
   "topic": "Gas volumes",
   "q": "5.0 g of calcium carbonate reacts with excess hydrochloric acid. What volume of carbon dioxide is produced at room temperature and pressure? (\\(M_r(\\text{CaCO}_3) = 100\\); 1 mol of gas occupies \\(24\\text{ dm}^3\\) at RTP)",
@@ -710,6 +754,7 @@ window.QUESTIONS = [
  {
   "id": "C-05",
   "module": "chem",
+  "level": "foundation",
   "set": 1,
   "topic": "Isotopes and relative atomic mass",
   "q": "Element X has two isotopes, \\(^{69}\\text{X}\\) and \\(^{71}\\text{X}\\). Its relative atomic mass is 69.8. What percentage of X atoms are \\(^{69}\\text{X}\\)?",
@@ -726,6 +771,7 @@ window.QUESTIONS = [
  {
   "id": "C-06",
   "module": "chem",
+  "level": "foundation",
   "set": 1,
   "topic": "Oxidation states",
   "q": "In which species does the named element have the highest oxidation state?",
@@ -742,6 +788,7 @@ window.QUESTIONS = [
  {
   "id": "C-07",
   "module": "chem",
+  "level": "foundation",
   "set": 1,
   "topic": "Empirical and molecular formulae",
   "q": "A compound contains 40.0% carbon, 6.7% hydrogen and 53.3% oxygen by mass. Its relative molecular mass is 180. What is its molecular formula? (\\(A_r\\): C = 12, H = 1, O = 16)",
@@ -758,6 +805,7 @@ window.QUESTIONS = [
  {
   "id": "C-08",
   "module": "chem",
+  "level": "foundation",
   "set": 1,
   "topic": "Intermolecular forces",
   "q": "Which of the following has the highest boiling point?",
@@ -774,6 +822,7 @@ window.QUESTIONS = [
  {
   "id": "C-09",
   "module": "chem",
+  "level": "foundation",
   "set": 1,
   "topic": "Electrolysis",
   "q": "Concentrated aqueous sodium chloride is electrolysed using inert electrodes. What is produced at each electrode?",
@@ -790,6 +839,7 @@ window.QUESTIONS = [
  {
   "id": "C-10",
   "module": "chem",
+  "level": "foundation",
   "set": 1,
   "topic": "Equilibrium",
   "q": "\\(\\text{N}_2(\\text{g}) + 3\\text{H}_2(\\text{g}) \\rightleftharpoons 2\\text{NH}_3(\\text{g})\\), \\(\\Delta H = -92\\text{ kJ mol}^{-1}\\). Which pair of changes would both increase the equilibrium yield of ammonia?",
@@ -806,6 +856,7 @@ window.QUESTIONS = [
  {
   "id": "B-01",
   "module": "bio",
+  "level": "foundation",
   "set": 1,
   "topic": "Enzymes",
   "q": "Which of the following statements about enzymes is/are correct?<br>1. Enzymes lower the activation energy of a reaction.<br>2. When an enzyme is denatured, the shape of its active site changes.<br>3. All human enzymes have an optimum pH of 7.",
@@ -823,6 +874,7 @@ window.QUESTIONS = [
  {
   "id": "B-02",
   "module": "bio",
+  "level": "foundation",
   "set": 1,
   "topic": "Genetics: monohybrid",
   "q": "Cystic fibrosis is caused by a recessive allele. Two parents are both carriers. Their first child does not have cystic fibrosis. What is the probability that this child is a carrier?",
@@ -839,6 +891,7 @@ window.QUESTIONS = [
  {
   "id": "B-03",
   "module": "bio",
+  "level": "foundation",
   "set": 1,
   "topic": "Cell division",
   "q": "A human body cell contains 46 chromosomes. How many chromatids are present in the cell at metaphase of mitosis, and how many chromosomes are in each cell produced by meiosis?",
@@ -855,6 +908,7 @@ window.QUESTIONS = [
  {
   "id": "B-04",
   "module": "bio",
+  "level": "foundation",
   "set": 1,
   "topic": "Circulation",
   "q": "Which sequence correctly shows the path of blood from the vena cava to the aorta?",
@@ -871,6 +925,7 @@ window.QUESTIONS = [
  {
   "id": "B-05",
   "module": "bio",
+  "level": "foundation",
   "set": 1,
   "topic": "Osmosis",
   "q": "A plant cell is placed in a concentrated sucrose solution. Which describes what happens?",
@@ -887,6 +942,7 @@ window.QUESTIONS = [
  {
   "id": "B-06",
   "module": "bio",
+  "level": "foundation",
   "set": 1,
   "topic": "Photosynthesis",
   "q": "A plant is kept at \\(25^\\circ\\text{C}\\) in bright light. Increasing light intensity further has no effect on the rate of photosynthesis, but increasing carbon dioxide concentration does increase the rate. Which statement is correct?",
@@ -903,6 +959,7 @@ window.QUESTIONS = [
  {
   "id": "B-07",
   "module": "bio",
+  "level": "foundation",
   "set": 1,
   "topic": "Hormones: blood glucose",
   "q": "Which statement about insulin is correct?",
@@ -919,6 +976,7 @@ window.QUESTIONS = [
  {
   "id": "B-08",
   "module": "bio",
+  "level": "foundation",
   "set": 1,
   "topic": "Ecology: energy transfer",
   "q": "In a food chain, 10% of the energy at each trophic level is transferred to the next. Producers capture 20 000 kJ. How much energy reaches the tertiary consumers?",
@@ -935,6 +993,7 @@ window.QUESTIONS = [
  {
   "id": "B-09",
   "module": "bio",
+  "level": "foundation",
   "set": 1,
   "topic": "Genetics: sex linkage",
   "q": "Red-green colour blindness is caused by a recessive allele on the X chromosome. A woman who is a carrier has children with a man who is not colour blind. What is the probability that their next child is a colour-blind boy?",
@@ -951,6 +1010,7 @@ window.QUESTIONS = [
  {
   "id": "B-10",
   "module": "bio",
+  "level": "foundation",
   "set": 1,
   "topic": "DNA structure",
   "q": "In a sample of double-stranded DNA, 30% of the bases are adenine. What percentage are guanine?",
@@ -963,5 +1023,954 @@ window.QUESTIONS = [
   ],
   "answer": 0,
   "solution": "A pairs with T, so T = 30% and A + T = 60%. G + C = 40%, and G = C, so G = 20%."
+ },
+ {
+  "id": "M1E-01",
+  "module": "m1",
+  "level": "esat",
+  "set": 1,
+  "topic": "Number: indices and surds",
+  "q": "Which of the following statements is/are correct?<br>1. \\((\\sqrt{2} + \\sqrt{8})^2 = 18\\)<br>2. \\(8^{2/3} \\times 4^{-1/2} = 4\\)<br>3. \\(3^{20} + 3^{20} + 3^{20} = 3^{21}\\)",
+  "options": [
+   "none of them",
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 5,
+  "solution": "1: \\(\\sqrt{8} = 2\\sqrt{2}\\), so the sum is \\(3\\sqrt{2}\\) and its square is 18. True. 2: \\(8^{2/3} = 4\\) and \\(4^{-1/2} = \\tfrac12\\), so the product is 2. False. 3: \\(3 \\times 3^{20} = 3^{21}\\). True.",
+  "fixed": true
+ },
+ {
+  "id": "M1E-02",
+  "module": "m1",
+  "level": "esat",
+  "set": 1,
+  "topic": "Mensuration: surface area",
+  "q": "A cube of edge \\(a\\) has the same total surface area as a sphere of radius \\(r\\). Which expression gives \\(a\\) in terms of \\(r\\)?",
+  "options": [
+   "\\(r\\sqrt{\\dfrac{2\\pi}{3}}\\)",
+   "\\(r\\sqrt{\\dfrac{3\\pi}{2}}\\)",
+   "\\(\\dfrac{2\\pi r}{3}\\)",
+   "\\(r\\sqrt{\\dfrac{\\pi}{6}}\\)",
+   "\\(\\dfrac{r\\sqrt{2\\pi}}{3}\\)",
+   "\\(r\\sqrt{6\\pi}\\)",
+   "\\(\\dfrac{2\\pi r^2}{3}\\)"
+  ],
+  "answer": 0,
+  "solution": "\\(6a^2 = 4\\pi r^2 \\Rightarrow a^2 = \\tfrac{2\\pi}{3}r^2 \\Rightarrow a = r\\sqrt{\\tfrac{2\\pi}{3}}\\). Forgetting the square root gives \\(\\tfrac{2\\pi r^2}{3}\\); swapping the 4 and 6 gives \\(r\\sqrt{\\tfrac{3\\pi}{2}}\\)."
+ },
+ {
+  "id": "M1E-03",
+  "module": "m1",
+  "level": "esat",
+  "set": 1,
+  "topic": "Geometry: area with ratios",
+  "q": "Square \\(ABCD\\) has side 12 cm, labelled anticlockwise. \\(P\\) lies on \\(AB\\) with \\(AP : PB = 1 : 2\\). \\(Q\\) is the midpoint of \\(BC\\). \\(R\\) lies on \\(CD\\) with \\(CR : RD = 1 : 3\\). What is the area of triangle \\(PQR\\), in \\(\\text{cm}^2\\)?",
+  "options": [
+   "\\(24\\)",
+   "\\(30\\)",
+   "\\(33\\)",
+   "\\(36\\)",
+   "\\(39\\)",
+   "\\(42\\)",
+   "\\(48\\)"
+  ],
+  "answer": 2,
+  "solution": "Subtract the three corner triangles from the square. Lengths: \\(AP = 4, PB = 8\\); \\(BQ = QC = 6\\); \\(CR = 3, RD = 9\\). Corner triangles: at \\(B\\): \\(\\tfrac12 \\cdot 8 \\cdot 6 = 24\\); at \\(C\\): \\(\\tfrac12 \\cdot 6 \\cdot 3 = 9\\); the trapezium \\(APRD\\) has parallel sides \\(AP = 4\\) and \\(DR = 9\\), height 12, area \\(78\\). So \\(PQR = 144 - 24 - 9 - 78 = 33\\)."
+ },
+ {
+  "id": "M1E-04",
+  "module": "m1",
+  "level": "esat",
+  "set": 1,
+  "topic": "Speed, distance, time",
+  "q": "A cyclist rides up a hill at \\(12\\text{ km/h}\\) and returns down the same route at \\(v\\text{ km/h}\\). Her average speed for the round trip is \\(18\\text{ km/h}\\). What is \\(v\\)?",
+  "options": [
+   "\\(20\\)",
+   "\\(24\\)",
+   "\\(27\\)",
+   "\\(30\\)",
+   "\\(36\\)",
+   "\\(48\\)"
+  ],
+  "answer": 4,
+  "solution": "Let each leg be \\(d\\). Total time \\(= \\tfrac{d}{12} + \\tfrac{d}{v} = \\tfrac{2d}{18}\\), so \\(\\tfrac{1}{v} = \\tfrac19 - \\tfrac1{12} = \\tfrac{1}{36}\\) and \\(v = 36\\). (24 is the 'simple mean' trap.)"
+ },
+ {
+  "id": "M1E-05",
+  "module": "m1",
+  "level": "esat",
+  "set": 1,
+  "topic": "Probability: conditional",
+  "q": "Bag A contains 3 red and 2 blue counters. Bag B contains 3 red and \\(x\\) blue counters. One counter is chosen at random from A and put into B. A counter is then chosen at random from B. The probability that this counter is blue is \\(\\tfrac35\\).<br>Given that the counter chosen from B is blue, what is the probability that the counter moved from A was red?",
+  "options": [
+   "\\(\\dfrac13\\)",
+   "\\(\\dfrac25\\)",
+   "\\(\\dfrac{5}{12}\\)",
+   "\\(\\dfrac49\\)",
+   "\\(\\dfrac12\\)",
+   "\\(\\dfrac59\\)",
+   "\\(\\dfrac35\\)",
+   "\\(\\dfrac23\\)"
+  ],
+  "answer": 5,
+  "solution": "After the move B has \\(x + 4\\) counters. \\(P(\\text{blue}) = \\tfrac35 \\cdot \\tfrac{x}{x+4} + \\tfrac25 \\cdot \\tfrac{x+1}{x+4} = \\tfrac{5x+2}{5(x+4)} = \\tfrac35 \\Rightarrow 5x + 2 = 3x + 12 \\Rightarrow x = 5\\). Then \\(P(\\text{red moved and blue}) = \\tfrac35 \\cdot \\tfrac59 = \\tfrac13\\), so the answer is \\(\\tfrac13 \\div \\tfrac35 = \\tfrac59\\)."
+ },
+ {
+  "id": "M1E-06",
+  "module": "m1",
+  "level": "esat",
+  "set": 1,
+  "topic": "Algebra: algebraic fractions",
+  "q": "Simplify fully \\(\\dfrac{x^2 - 9}{x^2 + x - 6} \\div \\dfrac{x^2 - 2x - 3}{x^2 - 4}\\).",
+  "options": [
+   "\\(\\dfrac{x+2}{x+1}\\)",
+   "\\(\\dfrac{x-2}{x+1}\\)",
+   "\\(\\dfrac{x+2}{x-1}\\)",
+   "\\(\\dfrac{x+3}{x+1}\\)",
+   "\\(1\\)",
+   "\\(\\dfrac{x+1}{x+2}\\)",
+   "\\(\\dfrac{(x+2)(x-3)}{(x+1)(x-2)}\\)"
+  ],
+  "answer": 0,
+  "solution": "\\(\\dfrac{(x-3)(x+3)}{(x+3)(x-2)} \\times \\dfrac{(x-2)(x+2)}{(x-3)(x+1)} = \\dfrac{x+2}{x+1}\\). Remember to invert the second fraction."
+ },
+ {
+  "id": "M1E-07",
+  "module": "m1",
+  "level": "esat",
+  "set": 1,
+  "topic": "Sequences",
+  "q": "The \\(n\\)th term of a sequence is \\(an^2 + bn\\), where \\(a\\) and \\(b\\) are constants. The 3rd term is 21 and the 5th term is 55. What is the 10th term?",
+  "options": [
+   "\\(110\\)",
+   "\\(190\\)",
+   "\\(200\\)",
+   "\\(210\\)",
+   "\\(220\\)",
+   "\\(230\\)"
+  ],
+  "answer": 3,
+  "solution": "\\(9a + 3b = 21\\) and \\(25a + 5b = 55\\), i.e. \\(3a + b = 7\\) and \\(5a + b = 11\\). So \\(a = 2\\), \\(b = 1\\), and the 10th term is \\(200 + 10 = 210\\)."
+ },
+ {
+  "id": "M1E-08",
+  "module": "m1",
+  "level": "esat",
+  "set": 1,
+  "topic": "Mensuration: volume and percentages",
+  "q": "A solid metal cylinder is melted down and recast into a cylinder whose radius is 25% larger. No metal is lost. By what percentage does the height decrease?",
+  "options": [
+   "\\(20\\%\\)",
+   "\\(25\\%\\)",
+   "\\(36\\%\\)",
+   "\\(44\\%\\)",
+   "\\(50\\%\\)",
+   "\\(56.25\\%\\)",
+   "\\(64\\%\\)"
+  ],
+  "answer": 2,
+  "solution": "Volume \\(\\propto r^2h\\). \\(r \\to 1.25r\\) multiplies \\(r^2\\) by \\(\\tfrac{25}{16}\\), so \\(h\\) is multiplied by \\(\\tfrac{16}{25} = 0.64\\): a 36% decrease. (64% is the new height, not the decrease.)"
+ },
+ {
+  "id": "M1E-09",
+  "module": "m1",
+  "level": "esat",
+  "set": 1,
+  "topic": "Averages",
+  "q": "The mean of 20 numbers is 15. Two of the numbers, \\(x\\) and \\(2x\\), are removed, and the mean of the remaining numbers is 14. What is \\(x\\)?",
+  "options": [
+   "\\(8\\)",
+   "\\(12\\)",
+   "\\(16\\)",
+   "\\(18\\)",
+   "\\(24\\)",
+   "\\(32\\)"
+  ],
+  "answer": 2,
+  "solution": "Original total \\(= 300\\). 18 numbers remain with total \\(18 \\times 14 = 252\\). So \\(3x = 48\\) and \\(x = 16\\). (Dividing by 19 or using 20 for the remaining count are the common slips.)"
+ },
+ {
+  "id": "M1E-10",
+  "module": "m1",
+  "level": "esat",
+  "set": 1,
+  "topic": "Trigonometry: area and cosine rule",
+  "q": "In triangle \\(ABC\\), \\(AB = 6\\), \\(AC = 4\\) and angle \\(BAC = 60^\\circ\\). What is the perpendicular distance from \\(A\\) to the line \\(BC\\)?",
+  "options": [
+   "\\(\\dfrac{6\\sqrt{21}}{7}\\)",
+   "\\(\\dfrac{3\\sqrt{21}}{7}\\)",
+   "\\(2\\sqrt{7}\\)",
+   "\\(3\\sqrt{3}\\)",
+   "\\(\\dfrac{6\\sqrt{3}}{7}\\)",
+   "\\(\\sqrt{21}\\)",
+   "\\(\\dfrac{12\\sqrt{3}}{7}\\)"
+  ],
+  "answer": 0,
+  "solution": "\\(BC^2 = 36 + 16 - 2 \\cdot 6 \\cdot 4 \\cdot \\tfrac12 = 28\\), so \\(BC = 2\\sqrt{7}\\). Area \\(= \\tfrac12 \\cdot 6 \\cdot 4 \\sin 60^\\circ = 6\\sqrt{3}\\). Also area \\(= \\tfrac12 \\cdot BC \\cdot h\\), so \\(h = \\dfrac{12\\sqrt{3}}{2\\sqrt{7}} = \\dfrac{6\\sqrt{3}}{\\sqrt{7}} = \\dfrac{6\\sqrt{21}}{7}\\)."
+ },
+ {
+  "id": "M2E-01",
+  "module": "m2",
+  "level": "esat",
+  "set": 1,
+  "topic": "Quadratics: discriminant and tangency",
+  "q": "The line \\(y = kx\\) is a tangent to the curve \\(y = x^2 - 2x + 4\\). What are all the possible values of \\(k\\)?",
+  "options": [
+   "\\(2\\) only",
+   "\\(-6\\) only",
+   "\\(2\\) and \\(-6\\)",
+   "\\(-2\\) and \\(6\\)",
+   "\\(4\\) and \\(-4\\)",
+   "\\(6\\) only",
+   "\\(2\\) and \\(6\\)"
+  ],
+  "answer": 2,
+  "solution": "\\(x^2 - (2 + k)x + 4 = 0\\) must have a repeated root: \\((2 + k)^2 = 16 \\Rightarrow 2 + k = \\pm 4 \\Rightarrow k = 2\\) or \\(k = -6\\)."
+ },
+ {
+  "id": "M2E-02",
+  "module": "m2",
+  "level": "esat",
+  "set": 1,
+  "topic": "Exponentials: hidden quadratics",
+  "q": "What is the sum of the real solutions of \\(9^x - 4 \\cdot 3^{x+1} + 27 = 0\\)?",
+  "options": [
+   "\\(0\\)",
+   "\\(1\\)",
+   "\\(2\\)",
+   "\\(3\\)",
+   "\\(4\\)",
+   "\\(12\\)"
+  ],
+  "answer": 3,
+  "solution": "Let \\(t = 3^x\\): \\(t^2 - 12t + 27 = 0 \\Rightarrow t = 3\\) or \\(9\\), so \\(x = 1\\) or \\(2\\). Sum \\(= 3\\). (12 is the sum of the \\(t\\) values.)"
+ },
+ {
+  "id": "M2E-03",
+  "module": "m2",
+  "level": "esat",
+  "set": 1,
+  "topic": "Trigonometric equations",
+  "q": "What is the sum of all the solutions of \\(2\\cos^2 x + 3\\sin x = 3\\) in the interval \\(0 \\le x \\le 2\\pi\\)?",
+  "options": [
+   "\\(\\dfrac{\\pi}{2}\\)",
+   "\\(\\pi\\)",
+   "\\(\\dfrac{7\\pi}{6}\\)",
+   "\\(\\dfrac{3\\pi}{2}\\)",
+   "\\(2\\pi\\)",
+   "\\(\\dfrac{5\\pi}{2}\\)",
+   "\\(3\\pi\\)"
+  ],
+  "answer": 3,
+  "solution": "Use \\(\\cos^2 x = 1 - \\sin^2 x\\): \\(2\\sin^2 x - 3\\sin x + 1 = 0 \\Rightarrow \\sin x = 1\\) or \\(\\tfrac12\\). Solutions \\(\\tfrac{\\pi}{2}, \\tfrac{\\pi}{6}, \\tfrac{5\\pi}{6}\\), with sum \\(\\tfrac{3\\pi}{2}\\)."
+ },
+ {
+  "id": "M2E-04",
+  "module": "m2",
+  "level": "esat",
+  "set": 1,
+  "topic": "Differentiation: optimisation",
+  "q": "A closed cylinder has volume \\(16\\pi\\text{ cm}^3\\). What is the smallest possible total surface area, in \\(\\text{cm}^2\\)?",
+  "options": [
+   "\\(12\\pi\\)",
+   "\\(16\\pi\\)",
+   "\\(20\\pi\\)",
+   "\\(24\\pi\\)",
+   "\\(28\\pi\\)",
+   "\\(32\\pi\\)",
+   "\\(48\\pi\\)"
+  ],
+  "answer": 3,
+  "solution": "\\(h = \\tfrac{16}{r^2}\\), so \\(S = 2\\pi r^2 + 2\\pi r h = 2\\pi r^2 + \\tfrac{32\\pi}{r}\\). \\(S' = 4\\pi r - \\tfrac{32\\pi}{r^2} = 0 \\Rightarrow r^3 = 8 \\Rightarrow r = 2\\), \\(h = 4\\). \\(S = 8\\pi + 16\\pi = 24\\pi\\)."
+ },
+ {
+  "id": "M2E-05",
+  "module": "m2",
+  "level": "esat",
+  "set": 1,
+  "topic": "Integration: area below the axis",
+  "q": "What is the total area of the regions enclosed by the curve \\(y = x^2 - 4x + 3\\), the \\(x\\)-axis and the lines \\(x = 0\\) and \\(x = 3\\)?",
+  "options": [
+   "\\(0\\)",
+   "\\(\\dfrac43\\)",
+   "\\(2\\)",
+   "\\(\\dfrac83\\)",
+   "\\(\\dfrac{10}{3}\\)",
+   "\\(4\\)",
+   "\\(\\dfrac{16}{3}\\)"
+  ],
+  "answer": 3,
+  "solution": "The curve crosses the axis at \\(x = 1\\) and \\(x = 3\\). With \\(F(x) = \\tfrac{x^3}{3} - 2x^2 + 3x\\): \\(\\int_0^1 = \\tfrac43\\) (above), \\(\\int_1^3 = 0 - \\tfrac43 = -\\tfrac43\\) (below). Total area \\(= \\tfrac43 + \\tfrac43 = \\tfrac83\\). Integrating straight from 0 to 3 gives 0: the trap."
+ },
+ {
+  "id": "M2E-06",
+  "module": "m2",
+  "level": "esat",
+  "set": 1,
+  "topic": "Logarithms",
+  "q": "Given that \\(\\log_a b = 3\\), what is \\(\\log_b (a^2 b)\\)?",
+  "options": [
+   "\\(\\dfrac23\\)",
+   "\\(\\dfrac35\\)",
+   "\\(\\dfrac53\\)",
+   "\\(\\dfrac73\\)",
+   "\\(6\\)",
+   "\\(7\\)",
+   "\\(9\\)"
+  ],
+  "answer": 2,
+  "solution": "\\(b = a^3\\), so \\(a = b^{1/3}\\) and \\(a^2 b = b^{2/3} \\cdot b = b^{5/3}\\). Hence \\(\\log_b(a^2b) = \\tfrac53\\). (7 is \\(\\log_a(a^2b)\\).)"
+ },
+ {
+  "id": "M2E-07",
+  "module": "m2",
+  "level": "esat",
+  "set": 1,
+  "topic": "Arithmetic series",
+  "q": "An arithmetic series has sum of its first 10 terms equal to 145 and sum of its first 20 terms equal to 590. What is the sum of the 21st to 30th terms inclusive?",
+  "options": [
+   "\\(445\\)",
+   "\\(590\\)",
+   "\\(735\\)",
+   "\\(745\\)",
+   "\\(755\\)",
+   "\\(845\\)",
+   "\\(1335\\)"
+  ],
+  "answer": 3,
+  "solution": "\\(5(2a + 9d) = 145\\) and \\(10(2a + 19d) = 590\\) give \\(2a + 9d = 29\\), \\(2a + 19d = 59\\), so \\(d = 3\\), \\(a = 1\\). \\(S_{30} = 15(2 + 87) = 1335\\), and \\(1335 - 590 = 745\\)."
+ },
+ {
+  "id": "M2E-08",
+  "module": "m2",
+  "level": "esat",
+  "set": 1,
+  "topic": "Graph transformations",
+  "q": "The curve \\(y = f(x)\\) has a single stationary point, a maximum at \\((2, 5)\\). Which describes the stationary point of \\(y = 3 - 2f(x + 1)\\)?",
+  "options": [
+   "maximum at \\((1, -7)\\)",
+   "minimum at \\((1, -7)\\)",
+   "minimum at \\((3, -7)\\)",
+   "maximum at \\((3, 13)\\)",
+   "minimum at \\((1, 13)\\)",
+   "maximum at \\((1, 13)\\)",
+   "minimum at \\((-1, -7)\\)",
+   "maximum at \\((-1, -7)\\)"
+  ],
+  "answer": 1,
+  "solution": "\\(f(x+1)\\) shifts left by 1: maximum at \\((1, 5)\\). Multiplying by \\(-2\\) stretches and reflects it: minimum at \\((1, -10)\\). Adding 3: minimum at \\((1, -7)\\)."
+ },
+ {
+  "id": "M2E-09",
+  "module": "m2",
+  "level": "esat",
+  "set": 1,
+  "topic": "Binomial expansion",
+  "q": "What is the coefficient of \\(x^2\\) in the expansion of \\((1 + 2x)^5(1 - x)^3\\)?",
+  "options": [
+   "\\(-13\\)",
+   "\\(3\\)",
+   "\\(7\\)",
+   "\\(13\\)",
+   "\\(37\\)",
+   "\\(43\\)",
+   "\\(73\\)"
+  ],
+  "answer": 3,
+  "solution": "\\((1 + 2x)^5 = 1 + 10x + 40x^2 + \\dots\\) and \\((1 - x)^3 = 1 - 3x + 3x^2 - x^3\\). The \\(x^2\\) coefficient is \\(40 \\cdot 1 + 10 \\cdot (-3) + 1 \\cdot 3 = 13\\)."
+ },
+ {
+  "id": "M2E-10",
+  "module": "m2",
+  "level": "esat",
+  "set": 1,
+  "topic": "Circles: chords",
+  "q": "The line \\(y = x + 1\\) cuts the circle \\((x - 2)^2 + (y - 1)^2 = 10\\) at two points. What is the length of the chord joining them?",
+  "options": [
+   "\\(\\sqrt{2}\\)",
+   "\\(2\\sqrt{2}\\)",
+   "\\(4\\)",
+   "\\(4\\sqrt{2}\\)",
+   "\\(2\\sqrt{5}\\)",
+   "\\(2\\sqrt{10}\\)",
+   "\\(8\\)"
+  ],
+  "answer": 3,
+  "solution": "Distance from centre \\((2, 1)\\) to \\(x - y + 1 = 0\\) is \\(\\tfrac{|2 - 1 + 1|}{\\sqrt{2}} = \\sqrt{2}\\). Half-chord \\(= \\sqrt{10 - 2} = 2\\sqrt{2}\\), so the chord is \\(4\\sqrt{2}\\). (Or solve: the points are \\((-1, 0)\\) and \\((3, 4)\\).)"
+ },
+ {
+  "id": "PE-01",
+  "module": "phys",
+  "level": "esat",
+  "set": 1,
+  "topic": "Energy: springs and gravity",
+  "q": "A spring of stiffness \\(k\\) is compressed by a distance \\(x\\) and used to launch a ball of mass \\(m\\) vertically upwards. Assume all the elastic energy becomes kinetic energy of the ball, and ignore air resistance and the height gained while the spring extends. How high does the ball rise above its launch point?",
+  "options": [
+   "\\(\\dfrac{kx^2}{2mg}\\)",
+   "\\(\\dfrac{kx}{mg}\\)",
+   "\\(\\dfrac{kx^2}{mg}\\)",
+   "\\(\\dfrac{2kx^2}{mg}\\)",
+   "\\(\\dfrac{kx^2}{2m}\\)",
+   "\\(\\sqrt{\\dfrac{kx^2}{2mg}}\\)",
+   "\\(\\dfrac{mg}{kx^2}\\)"
+  ],
+  "answer": 0,
+  "solution": "\\(\\tfrac12 kx^2 = mgh \\Rightarrow h = \\dfrac{kx^2}{2mg}\\). Check units: \\(\\text{N m}^{-1} \\times \\text{m}^2 / \\text{N} = \\text{m}\\)."
+ },
+ {
+  "id": "PE-02",
+  "module": "phys",
+  "level": "esat",
+  "set": 1,
+  "topic": "Circuits: switches and power",
+  "q": "A 12 V battery of negligible internal resistance is connected in series with a \\(4\\,\\Omega\\) resistor and a \\(6\\,\\Omega\\) resistor. A \\(3\\,\\Omega\\) resistor in series with a switch is connected in parallel with the \\(6\\,\\Omega\\) resistor. The switch is initially open. By what factor does the power supplied by the battery change when the switch is closed?",
+  "options": [
+   "\\(\\dfrac35\\)",
+   "\\(1\\)",
+   "\\(\\dfrac32\\)",
+   "\\(\\dfrac53\\)",
+   "\\(2\\)",
+   "\\(\\dfrac52\\)",
+   "\\(\\dfrac{10}{3}\\)"
+  ],
+  "answer": 3,
+  "solution": "Open: \\(R = 10\\,\\Omega\\), \\(P = V^2/R = 14.4\\) W. Closed: \\(6 \\parallel 3 = 2\\,\\Omega\\), \\(R = 6\\,\\Omega\\), \\(P = 24\\) W. Factor \\(= \\tfrac{10}{6} = \\tfrac53\\). (With fixed \\(V\\), \\(P \\propto 1/R\\).)"
+ },
+ {
+  "id": "PE-03",
+  "module": "phys",
+  "level": "esat",
+  "set": 1,
+  "topic": "Energy: projectiles",
+  "q": "A stone is thrown with speed \\(u\\) at an angle \\(\\theta\\) above the horizontal from the top of a cliff of height \\(H\\). Ignoring air resistance, with what speed does it hit the ground below?",
+  "options": [
+   "\\(\\sqrt{u^2 + 2gH}\\)",
+   "\\(u + \\sqrt{2gH}\\)",
+   "\\(\\sqrt{u^2\\cos^2\\theta + 2gH}\\)",
+   "\\(\\sqrt{u^2\\sin^2\\theta + 2gH}\\)",
+   "\\(\\sqrt{2gH}\\)",
+   "\\(\\sqrt{u^2 - 2gH}\\)",
+   "\\(u^2 + 2gH\\)"
+  ],
+  "answer": 0,
+  "solution": "Energy conservation: \\(\\tfrac12 mv^2 = \\tfrac12 mu^2 + mgH\\), so \\(v = \\sqrt{u^2 + 2gH}\\), independent of \\(\\theta\\). (The options with \\(\\theta\\) use only one velocity component, but kinetic energy depends on the full speed.)"
+ },
+ {
+  "id": "PE-04",
+  "module": "phys",
+  "level": "esat",
+  "set": 1,
+  "topic": "Radioactivity: two isotopes",
+  "q": "A sample contains two radioactive isotopes, P (half-life 2 hours) and Q (half-life 6 hours). Initially there are 8 times as many P nuclei as Q nuclei. After how long are there equal numbers of P and Q nuclei?",
+  "options": [
+   "3 hours",
+   "6 hours",
+   "8 hours",
+   "9 hours",
+   "12 hours",
+   "18 hours",
+   "They never become equal"
+  ],
+  "answer": 3,
+  "solution": "\\(8 \\cdot 2^{-t/2} = 2^{-t/6} \\Rightarrow 3 - \\tfrac{t}{2} = -\\tfrac{t}{6} \\Rightarrow \\tfrac{t}{3} = 3 \\Rightarrow t = 9\\) h. Check: after 9 h P has fallen by \\(2^{4.5}\\), Q by \\(2^{1.5}\\), a relative change of \\(2^3 = 8\\)."
+ },
+ {
+  "id": "PE-05",
+  "module": "phys",
+  "level": "esat",
+  "set": 1,
+  "topic": "Momentum and energy: ballistic pendulum",
+  "q": "A bullet of mass \\(m\\) travelling horizontally at speed \\(u\\) embeds itself in a block of mass \\(M\\) hanging at rest from a long string. To what maximum height above its starting position does the block rise?",
+  "options": [
+   "\\(\\dfrac{m^2u^2}{2g(m+M)^2}\\)",
+   "\\(\\dfrac{mu^2}{2gM}\\)",
+   "\\(\\dfrac{u^2}{2g}\\)",
+   "\\(\\dfrac{m^2u^2}{2gM^2}\\)",
+   "\\(\\dfrac{mu^2}{2g(m+M)}\\)",
+   "\\(\\dfrac{m^2u^2}{g(m+M)^2}\\)",
+   "\\(\\dfrac{(m+M)u^2}{2gm}\\)"
+  ],
+  "answer": 0,
+  "solution": "Momentum (not energy) is conserved in the collision: \\(v = \\tfrac{mu}{m+M}\\). Then energy is conserved during the swing: \\(h = \\tfrac{v^2}{2g} = \\dfrac{m^2u^2}{2g(m+M)^2}\\). Using energy conservation across the collision gives \\(\\tfrac{mu^2}{2g(m+M)}\\): wrong, as the collision is inelastic."
+ },
+ {
+  "id": "PE-06",
+  "module": "phys",
+  "level": "esat",
+  "set": 1,
+  "topic": "Waves: refraction",
+  "q": "Light of wavelength 600 nm in air enters glass of refractive index 1.5. The speed of light in air is \\(3.0 \\times 10^8\\text{ m s}^{-1}\\). Which of the following statements is/are correct?<br>1. The frequency of the light in the glass is \\(\\tfrac23\\) of its frequency in air.<br>2. The wavelength of the light in the glass is 400 nm.<br>3. The speed of the light in the glass is \\(2.0 \\times 10^8\\text{ m s}^{-1}\\).",
+  "options": [
+   "none of them",
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 6,
+  "solution": "Frequency is set by the source and does not change, so 1 is false. \\(v = c/n = 2.0 \\times 10^8\\text{ m s}^{-1}\\) (3 true), and \\(\\lambda = v/f\\) falls by the same factor: \\(600/1.5 = 400\\) nm (2 true).",
+  "fixed": true
+ },
+ {
+  "id": "PE-07",
+  "module": "phys",
+  "level": "esat",
+  "set": 1,
+  "topic": "Electricity: resistivity and power",
+  "q": "Wires X and Y are made of the same metal. Y is twice as long as X and has twice the diameter. They are connected in parallel across the same supply. What is \\(\\dfrac{\\text{power dissipated in Y}}{\\text{power dissipated in X}}\\)?",
+  "options": [
+   "\\(\\dfrac18\\)",
+   "\\(\\dfrac14\\)",
+   "\\(\\dfrac12\\)",
+   "\\(1\\)",
+   "\\(2\\)",
+   "\\(4\\)",
+   "\\(8\\)"
+  ],
+  "answer": 4,
+  "solution": "\\(R = \\rho L/A\\), and doubling the diameter quadruples \\(A\\): \\(R_Y = \\tfrac{2}{4}R_X = \\tfrac12 R_X\\). In parallel \\(V\\) is the same, so \\(P = V^2/R\\) and \\(P_Y/P_X = 2\\). (In series the answer would be \\(\\tfrac12\\).)"
+ },
+ {
+  "id": "PE-08",
+  "module": "phys",
+  "level": "esat",
+  "set": 1,
+  "topic": "Thermal physics: latent heat",
+  "q": "A 200 W heater is used to turn 0.20 kg of ice at \\(-10^\\circ\\text{C}\\) into water at \\(20^\\circ\\text{C}\\). Specific heat capacity of ice \\(= 2000\\text{ J kg}^{-1}\\text{K}^{-1}\\); of water \\(= 4200\\text{ J kg}^{-1}\\text{K}^{-1}\\); specific latent heat of fusion of ice \\(= 3.3 \\times 10^5\\text{ J kg}^{-1}\\). Assuming no energy losses, how long does this take?",
+  "options": [
+   "\\(104\\text{ s}\\)",
+   "\\(330\\text{ s}\\)",
+   "\\(350\\text{ s}\\)",
+   "\\(414\\text{ s}\\)",
+   "\\(434\\text{ s}\\)",
+   "\\(454\\text{ s}\\)"
+  ],
+  "answer": 4,
+  "solution": "Warm ice: \\(0.2 \\times 2000 \\times 10 = 4000\\) J. Melt: \\(0.2 \\times 3.3 \\times 10^5 = 66\\,000\\) J. Warm water: \\(0.2 \\times 4200 \\times 20 = 16\\,800\\) J. Total \\(86\\,800\\) J, and \\(86\\,800 / 200 = 434\\) s. The distractors each leave out one stage."
+ },
+ {
+  "id": "PE-09",
+  "module": "phys",
+  "level": "esat",
+  "set": 1,
+  "topic": "Moments",
+  "q": "A uniform beam of weight \\(W\\) and length \\(L\\) rests horizontally on two supports, one at each end. A load of weight \\(2W\\) is placed a distance \\(\\tfrac{L}{4}\\) from the left-hand end. What is the ratio (force from left support) : (force from right support)?",
+  "options": [
+   "\\(1 : 1\\)",
+   "\\(1 : 2\\)",
+   "\\(3 : 2\\)",
+   "\\(5 : 3\\)",
+   "\\(2 : 1\\)",
+   "\\(7 : 5\\)",
+   "\\(3 : 1\\)"
+  ],
+  "answer": 4,
+  "solution": "Moments about the right support: \\(F_L \\cdot L = W \\cdot \\tfrac{L}{2} + 2W \\cdot \\tfrac{3L}{4} = 2WL\\), so \\(F_L = 2W\\). Total upward force \\(= 3W\\), so \\(F_R = W\\). Ratio \\(2 : 1\\)."
+ },
+ {
+  "id": "PE-10",
+  "module": "phys",
+  "level": "esat",
+  "set": 1,
+  "topic": "Electricity: power transmission",
+  "q": "10 kW of electrical power is transmitted to a village through cables of total resistance \\(4.0\\,\\Omega\\). What percentage of the transmitted power is lost as heat in the cables if the transmission voltage is (i) 1.0 kV and (ii) 10 kV?",
+  "options": [
+   "(i) 4%, (ii) 0.4%",
+   "(i) 4%, (ii) 0.04%",
+   "(i) 0.4%, (ii) 0.04%",
+   "(i) 40%, (ii) 4%",
+   "(i) 4%, (ii) 4%",
+   "(i) 0.04%, (ii) 4%"
+  ],
+  "answer": 1,
+  "solution": "\\(I = P/V\\): 10 A at 1 kV, 1 A at 10 kV. Loss \\(= I^2R\\): 400 W (4%) and 4 W (0.04%). Raising \\(V\\) by 10 cuts the loss by \\(10^2\\)."
+ },
+ {
+  "id": "CE-01",
+  "module": "chem",
+  "level": "esat",
+  "set": 1,
+  "topic": "Moles: ions in solution",
+  "q": "How many moles of ions in total are present in \\(250\\text{ cm}^3\\) of \\(0.40\\text{ mol dm}^{-3}\\) aluminium sulfate solution, \\(\\text{Al}_2(\\text{SO}_4)_3(\\text{aq})\\)? Assume it is fully dissociated.",
+  "options": [
+   "\\(0.10\\)",
+   "\\(0.20\\)",
+   "\\(0.30\\)",
+   "\\(0.40\\)",
+   "\\(0.50\\)",
+   "\\(0.70\\)",
+   "\\(2.0\\)"
+  ],
+  "answer": 4,
+  "solution": "\\(n = 0.40 \\times 0.250 = 0.10\\) mol of \\(\\text{Al}_2(\\text{SO}_4)_3\\). Each formula unit gives \\(2\\text{Al}^{3+} + 3\\text{SO}_4^{2-}\\), i.e. 5 ions, so \\(0.50\\) mol of ions."
+ },
+ {
+  "id": "CE-02",
+  "module": "chem",
+  "level": "esat",
+  "set": 1,
+  "topic": "Moles: percentage purity",
+  "q": "An iron ore contains 80% iron(III) oxide, \\(\\text{Fe}_2\\text{O}_3\\), by mass. What is the minimum mass of ore needed to produce 5.6 tonnes of iron? (\\(A_r\\): Fe = 56, O = 16)",
+  "options": [
+   "\\(6.4\\) t",
+   "\\(7.0\\) t",
+   "\\(8.0\\) t",
+   "\\(10\\) t",
+   "\\(12.5\\) t",
+   "\\(16\\) t",
+   "\\(20\\) t"
+  ],
+  "answer": 3,
+  "solution": "5.6 t Fe \\(= 5.6 \\times 10^6 / 56 = 1.0 \\times 10^5\\) mol, needing \\(5.0 \\times 10^4\\) mol \\(\\text{Fe}_2\\text{O}_3\\) (\\(M_r = 160\\)), i.e. \\(8.0 \\times 10^6\\) g \\(= 8.0\\) t. As the ore is 80% oxide: \\(8.0 / 0.80 = 10\\) t. (20 t forgets the 2 Fe per formula; 6.4 t multiplies by 0.8 instead of dividing.)"
+ },
+ {
+  "id": "CE-03",
+  "module": "chem",
+  "level": "esat",
+  "set": 1,
+  "topic": "Redox titrations",
+  "q": "In acid solution, manganate(VII) ions oxidise iron(II) ions:<br>\\(\\text{MnO}_4^- + 8\\text{H}^+ + 5\\text{Fe}^{2+} \\rightarrow \\text{Mn}^{2+} + 5\\text{Fe}^{3+} + 4\\text{H}_2\\text{O}\\)<br>What volume of \\(0.020\\text{ mol dm}^{-3}\\) potassium manganate(VII) reacts exactly with \\(25.0\\text{ cm}^3\\) of \\(0.10\\text{ mol dm}^{-3}\\) iron(II) sulfate?",
+  "options": [
+   "\\(5.0\\text{ cm}^3\\)",
+   "\\(12.5\\text{ cm}^3\\)",
+   "\\(25.0\\text{ cm}^3\\)",
+   "\\(50.0\\text{ cm}^3\\)",
+   "\\(62.5\\text{ cm}^3\\)",
+   "\\(125\\text{ cm}^3\\)"
+  ],
+  "answer": 2,
+  "solution": "\\(n(\\text{Fe}^{2+}) = 0.10 \\times 0.0250 = 2.5 \\times 10^{-3}\\) mol, so \\(n(\\text{MnO}_4^-) = 5.0 \\times 10^{-4}\\) mol. \\(V = 5.0 \\times 10^{-4} / 0.020 = 0.025\\text{ dm}^3 = 25.0\\text{ cm}^3\\). (125 cm³ ignores the 1 : 5 ratio.)"
+ },
+ {
+  "id": "CE-04",
+  "module": "chem",
+  "level": "esat",
+  "set": 1,
+  "topic": "Acids: strong and weak",
+  "q": "Equal volumes of \\(0.10\\text{ mol dm}^{-3}\\) hydrochloric acid and \\(0.10\\text{ mol dm}^{-3}\\) ethanoic acid are each added to an excess of magnesium ribbon. Which of the following statements is/are correct?<br>1. The same total volume of hydrogen is eventually produced in each case.<br>2. The initial rate of reaction is the same in each case.<br>3. The hydrochloric acid has the lower pH.",
+  "options": [
+   "none of them",
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 5,
+  "solution": "Both contain 0.10 mol dm⁻³ of acid that can eventually react, so the same amount of \\(\\text{H}_2\\) forms (1 true). Ethanoic acid is weak, so \\([\\text{H}^+]\\) is much lower: slower initial rate (2 false) and higher pH (3 true).",
+  "fixed": true
+ },
+ {
+  "id": "CE-05",
+  "module": "chem",
+  "level": "esat",
+  "set": 1,
+  "topic": "Organic: structural isomers",
+  "q": "How many structural isomers have the molecular formula \\(\\text{C}_4\\text{H}_9\\text{Br}\\)?",
+  "options": [
+   "\\(2\\)",
+   "\\(3\\)",
+   "\\(4\\)",
+   "\\(5\\)",
+   "\\(6\\)"
+  ],
+  "answer": 2,
+  "solution": "Straight chain: 1-bromobutane, 2-bromobutane. Branched chain: 1-bromo-2-methylpropane, 2-bromo-2-methylpropane. Total 4. (2-bromobutane also has two optical isomers, but these are stereoisomers, not structural isomers.)"
+ },
+ {
+  "id": "CE-06",
+  "module": "chem",
+  "level": "esat",
+  "set": 1,
+  "topic": "Energetics: bond enthalpies",
+  "q": "Bond enthalpies (\\(\\text{kJ mol}^{-1}\\)): H–H 436, Cl–Cl 242, H–Cl 431.<br>What is the enthalpy change for the formation of <b>one mole</b> of hydrogen chloride from hydrogen and chlorine?",
+  "options": [
+   "\\(-431\\text{ kJ}\\)",
+   "\\(-247\\text{ kJ}\\)",
+   "\\(-184\\text{ kJ}\\)",
+   "\\(-92\\text{ kJ}\\)",
+   "\\(+92\\text{ kJ}\\)",
+   "\\(+184\\text{ kJ}\\)",
+   "\\(+247\\text{ kJ}\\)"
+  ],
+  "answer": 3,
+  "solution": "\\(\\text{H}_2 + \\text{Cl}_2 \\rightarrow 2\\text{HCl}\\): bonds broken \\(436 + 242 = 678\\), bonds made \\(2 \\times 431 = 862\\), \\(\\Delta H = 678 - 862 = -184\\) kJ for 2 mol. Per mole of HCl: \\(-92\\) kJ."
+ },
+ {
+  "id": "CE-07",
+  "module": "chem",
+  "level": "esat",
+  "set": 1,
+  "topic": "Rates and equilibrium",
+  "q": "\\(2\\text{SO}_2(\\text{g}) + \\text{O}_2(\\text{g}) \\rightleftharpoons 2\\text{SO}_3(\\text{g})\\), \\(\\Delta H < 0\\).<br>The temperature of the equilibrium mixture is raised at constant pressure. What happens to the rate of the forward reaction and to the equilibrium yield of \\(\\text{SO}_3\\)?",
+  "options": [
+   "rate increases; yield increases",
+   "rate increases; yield decreases",
+   "rate increases; yield unchanged",
+   "rate decreases; yield increases",
+   "rate decreases; yield decreases",
+   "rate unchanged; yield decreases"
+  ],
+  "answer": 1,
+  "solution": "Higher temperature always increases rate (more collisions exceed the activation energy). The forward reaction is exothermic, so the equilibrium shifts left and the yield of \\(\\text{SO}_3\\) falls."
+ },
+ {
+  "id": "CE-08",
+  "module": "chem",
+  "level": "esat",
+  "set": 1,
+  "topic": "Atomic structure: ionic radii",
+  "q": "Which of the following ions has the same electron configuration as an argon atom <b>and</b> the smallest radius?",
+  "options": [
+   "\\(\\text{S}^{2-}\\)",
+   "\\(\\text{Cl}^-\\)",
+   "\\(\\text{K}^+\\)",
+   "\\(\\text{Ca}^{2+}\\)",
+   "\\(\\text{Na}^+\\)",
+   "\\(\\text{Mg}^{2+}\\)"
+  ],
+  "answer": 3,
+  "solution": "\\(\\text{S}^{2-}, \\text{Cl}^-, \\text{K}^+, \\text{Ca}^{2+}\\) all have 18 electrons (Ar configuration). With the same electrons, more protons pull them in more tightly, so \\(\\text{Ca}^{2+}\\) (20 protons) is smallest. \\(\\text{Na}^+\\) and \\(\\text{Mg}^{2+}\\) are smaller still, but have the neon configuration."
+ },
+ {
+  "id": "CE-09",
+  "module": "chem",
+  "level": "esat",
+  "set": 1,
+  "topic": "Moles: limiting reagent",
+  "q": "2.4 g of magnesium is added to \\(100\\text{ cm}^3\\) of \\(1.0\\text{ mol dm}^{-3}\\) hydrochloric acid. What volume of hydrogen is produced at room temperature and pressure? (\\(A_r\\): Mg = 24; 1 mol of gas occupies \\(24\\text{ dm}^3\\) at RTP)",
+  "options": [
+   "\\(0.12\\text{ dm}^3\\)",
+   "\\(0.60\\text{ dm}^3\\)",
+   "\\(1.2\\text{ dm}^3\\)",
+   "\\(2.0\\text{ dm}^3\\)",
+   "\\(2.4\\text{ dm}^3\\)",
+   "\\(4.8\\text{ dm}^3\\)"
+  ],
+  "answer": 2,
+  "solution": "\\(\\text{Mg} + 2\\text{HCl} \\rightarrow \\text{MgCl}_2 + \\text{H}_2\\). Mg: 0.10 mol; HCl: 0.10 mol, which would need only 0.05 mol Mg, so HCl is limiting. \\(\\text{H}_2 = 0.050\\) mol \\(= 1.2\\text{ dm}^3\\). (2.4 dm³ assumes Mg is limiting.)"
+ },
+ {
+  "id": "CE-10",
+  "module": "chem",
+  "level": "esat",
+  "set": 1,
+  "topic": "Moles: water of crystallisation",
+  "q": "2.46 g of hydrated magnesium sulfate, \\(\\text{MgSO}_4 \\cdot x\\text{H}_2\\text{O}\\), is heated to constant mass, leaving 1.20 g of anhydrous \\(\\text{MgSO}_4\\). What is \\(x\\)? (\\(M_r\\): \\(\\text{MgSO}_4 = 120\\), \\(\\text{H}_2\\text{O} = 18\\))",
+  "options": [
+   "\\(4\\)",
+   "\\(5\\)",
+   "\\(6\\)",
+   "\\(7\\)",
+   "\\(8\\)",
+   "\\(10\\)"
+  ],
+  "answer": 3,
+  "solution": "Water lost \\(= 1.26\\) g \\(= 0.070\\) mol. \\(\\text{MgSO}_4 = 1.20/120 = 0.010\\) mol. \\(x = 0.070/0.010 = 7\\)."
+ },
+ {
+  "id": "BE-01",
+  "module": "bio",
+  "level": "esat",
+  "set": 1,
+  "topic": "Ecology: relationships",
+  "q": "Cleaner wrasse are small fish that eat parasites living on the skin of larger fish. The larger fish do not eat the wrasse. Which correctly describes (i) the relationship between the wrasse and the larger fish and (ii) the relationship between the wrasse and the parasites?",
+  "options": [
+   "(i) mutualism; (ii) predation",
+   "(i) parasitism; (ii) mutualism",
+   "(i) commensalism; (ii) predation",
+   "(i) mutualism; (ii) parasitism",
+   "(i) competition; (ii) predation",
+   "(i) predation; (ii) mutualism"
+  ],
+  "answer": 0,
+  "solution": "Both the wrasse (food) and the larger fish (parasite removal) benefit: mutualism. The wrasse kills and eats the parasites: predation."
+ },
+ {
+  "id": "BE-02",
+  "module": "bio",
+  "level": "esat",
+  "set": 1,
+  "topic": "Ecology: energy transfer",
+  "q": "The table shows energy values for grass and rabbits in a field over one year.<table class='data'><tr><th></th><th>Energy / kJ</th></tr><tr><td>Gross primary production of grass</td><td>20 000</td></tr><tr><td>Respiration by grass</td><td>12 000</td></tr><tr><td>Energy in grass eaten by rabbits</td><td>2 000</td></tr><tr><td>Energy in rabbit faeces</td><td>800</td></tr><tr><td>Respiration by rabbits</td><td>1 000</td></tr></table>Which of the following statements is/are correct?<br>1. The net primary production of the grass is 40% of its gross primary production.<br>2. Rabbits eat 25% of the net primary production of the grass.<br>3. 1200 kJ is available for growth of the rabbits.",
+  "options": [
+   "none of them",
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 4,
+  "solution": "NPP \\(= 20\\,000 - 12\\,000 = 8000\\) kJ, which is 40% of GPP (1 true). \\(2000 / 8000 = 25\\%\\) (2 true). Rabbit growth \\(=\\) eaten \\(-\\) faeces \\(-\\) respiration \\(= 2000 - 800 - 1000 = 200\\) kJ, not 1200 (3 false: 1200 is what's absorbed, before respiration).",
+  "fixed": true
+ },
+ {
+  "id": "BE-03",
+  "module": "bio",
+  "level": "esat",
+  "set": 1,
+  "topic": "Plant transport: potometer",
+  "q": "A bubble potometer has a capillary tube of internal radius 1.0 mm. The air bubble moves 15 mm in 5.0 minutes. Which row correctly gives what the potometer measures directly and the rate?",
+  "options": [
+   "water uptake; \\(3\\pi\\text{ mm}^3\\text{ min}^{-1}\\)",
+   "water uptake; \\(15\\pi\\text{ mm}^3\\text{ min}^{-1}\\)",
+   "transpiration; \\(6\\pi\\text{ mm}^3\\text{ min}^{-1}\\)",
+   "water uptake; \\(6\\pi\\text{ mm}^3\\text{ min}^{-1}\\)",
+   "translocation; \\(3\\pi\\text{ mm}^3\\text{ min}^{-1}\\)",
+   "transpiration; \\(15\\pi\\text{ mm}^3\\text{ min}^{-1}\\)"
+  ],
+  "answer": 0,
+  "solution": "Volume \\(= \\pi r^2 l = \\pi \\times 1^2 \\times 15 = 15\\pi\\text{ mm}^3\\) in 5 min, i.e. \\(3\\pi\\text{ mm}^3\\text{ min}^{-1}\\). A potometer measures water uptake by the shoot; this approximates transpiration, but some water is used in photosynthesis or kept by cells. \\(15\\pi\\) forgets to divide by the time; \\(6\\pi\\) uses \\(2\\pi r l\\) instead of \\(\\pi r^2 l\\)."
+ },
+ {
+  "id": "BE-04",
+  "module": "bio",
+  "level": "esat",
+  "set": 1,
+  "topic": "Genetics: dihybrid crosses",
+  "q": "In a plant, purple flowers (P) are dominant to white (p) and tall stems (T) are dominant to short (t). The two genes are on different chromosomes. A plant of genotype PpTt is crossed with one of genotype Pptt. What fraction of the offspring is expected to have purple flowers and short stems?",
+  "options": [
+   "\\(\\dfrac{1}{16}\\)",
+   "\\(\\dfrac{3}{16}\\)",
+   "\\(\\dfrac14\\)",
+   "\\(\\dfrac38\\)",
+   "\\(\\dfrac12\\)",
+   "\\(\\dfrac{9}{16}\\)",
+   "\\(\\dfrac34\\)"
+  ],
+  "answer": 3,
+  "solution": "Independent genes: \\(P(\\text{purple}) = \\tfrac34\\) (Pp × Pp), \\(P(\\text{short}) = \\tfrac12\\) (Tt × tt). Product \\(= \\tfrac38\\)."
+ },
+ {
+  "id": "BE-05",
+  "module": "bio",
+  "level": "esat",
+  "set": 1,
+  "topic": "Genetics: inheritance patterns",
+  "q": "Two parents who do not have a particular genetic condition have a daughter who has it. Which of the following statements is/are correct?<br>1. The condition cannot be caused by an X-linked recessive allele.<br>2. Both parents must be heterozygous for the gene.<br>3. Any son of the affected daughter will also have the condition.",
+  "options": [
+   "none of them",
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 4,
+  "solution": "An affected child of two unaffected parents means the allele is recessive. If it were X-linked recessive, the daughter would need an affected allele from her father, who would then have the condition. So it is autosomal recessive (1 true), and both parents must be carriers (2 true). Her sons get one allele from her, but their other allele comes from their father, so they need not be affected (3 false).",
+  "fixed": true
+ },
+ {
+  "id": "BE-06",
+  "module": "bio",
+  "level": "esat",
+  "set": 1,
+  "topic": "Enzymes: rate data",
+  "q": "The table shows the initial rate of an enzyme-catalysed reaction at different substrate concentrations, with enzyme concentration and temperature kept constant.<table class='data'><tr><th>Substrate concentration / arbitrary units</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><th>Initial rate / arbitrary units</th><td>2.0</td><td>4.0</td><td>6.0</td><td>7.0</td><td>7.5</td><td>7.5</td></tr></table>Which of the following statements is/are correct?<br>1. At a substrate concentration of 1, substrate concentration limits the rate.<br>2. At a substrate concentration of 6, almost all active sites are occupied at any moment.<br>3. Doubling the enzyme concentration would increase the rate at a substrate concentration of 6.",
+  "options": [
+   "none of them",
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 7,
+  "solution": "At low concentration the rate rises in proportion to substrate: substrate is limiting (1 true). The plateau means the enzymes are saturated (2 true), so enzyme concentration now limits the rate and adding more enzyme raises it (3 true).",
+  "fixed": true
+ },
+ {
+  "id": "BE-07",
+  "module": "bio",
+  "level": "esat",
+  "set": 1,
+  "topic": "Respiration: interpreting data",
+  "q": "Yeast was grown in a sealed flask of glucose solution. The table shows measurements over 32 hours (arbitrary units).<table class='data'><tr><th>Time / h</th><td>0</td><td>8</td><td>16</td><td>24</td><td>32</td></tr><tr><th>Oxygen</th><td>20</td><td>10</td><td>2</td><td>0</td><td>0</td></tr><tr><th>Ethanol</th><td>0</td><td>0</td><td>1</td><td>4</td><td>8</td></tr><tr><th>Glucose</th><td>100</td><td>90</td><td>70</td><td>45</td><td>25</td></tr></table>Which of the following statements is/are correct?<br>1. Between 0 and 8 hours the yeast respired aerobically only.<br>2. The rate of glucose use was greatest between 24 and 32 hours.<br>3. Ethanol was produced only once oxygen had run out completely.",
+  "options": [
+   "none of them",
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "solution": "1: no ethanol forms while oxygen falls, consistent with aerobic respiration only. True. 2: glucose falls by 10, 20, 25 and 20 in successive 8-hour periods, so the rate is greatest from 16 to 24 h. False. 3: ethanol appears by 16 h, when 2 units of oxygen remain. False.",
+  "fixed": true
+ },
+ {
+  "id": "BE-08",
+  "module": "bio",
+  "level": "esat",
+  "set": 1,
+  "topic": "Circulation: cardiac output",
+  "q": "At rest, an athlete has a heart rate of 56 beats per minute and a cardiac output of \\(5.6\\text{ dm}^3\\text{ min}^{-1}\\). During exercise the heart rate rises to 160 beats per minute and the stroke volume increases by 50%. What are the resting stroke volume and the cardiac output during exercise?",
+  "options": [
+   "\\(100\\text{ cm}^3\\); \\(16\\text{ dm}^3\\text{ min}^{-1}\\)",
+   "\\(100\\text{ cm}^3\\); \\(24\\text{ dm}^3\\text{ min}^{-1}\\)",
+   "\\(10\\text{ cm}^3\\); \\(2.4\\text{ dm}^3\\text{ min}^{-1}\\)",
+   "\\(150\\text{ cm}^3\\); \\(24\\text{ dm}^3\\text{ min}^{-1}\\)",
+   "\\(100\\text{ cm}^3\\); \\(8.4\\text{ dm}^3\\text{ min}^{-1}\\)",
+   "\\(1.0\\text{ dm}^3\\); \\(240\\text{ dm}^3\\text{ min}^{-1}\\)"
+  ],
+  "answer": 1,
+  "solution": "Stroke volume \\(= 5600\\text{ cm}^3 / 56 = 100\\text{ cm}^3\\). During exercise: \\(150\\text{ cm}^3 \\times 160 = 24\\,000\\text{ cm}^3 = 24\\text{ dm}^3\\text{ min}^{-1}\\). (16 forgets the stroke-volume increase; 8.4 forgets the heart-rate increase.)"
+ },
+ {
+  "id": "BE-09",
+  "module": "bio",
+  "level": "esat",
+  "set": 1,
+  "topic": "Cells: prokaryotes and eukaryotes",
+  "q": "Which of the following are found in <b>both</b> prokaryotic and eukaryotic cells?<br>1. ribosomes &nbsp; 2. cell membrane &nbsp; 3. nucleus &nbsp; 4. mitochondria &nbsp; 5. DNA",
+  "options": [
+   "1 and 2 only",
+   "1, 2 and 5 only",
+   "2 and 5 only",
+   "1, 2, 4 and 5 only",
+   "1, 2, 3 and 5 only",
+   "2, 3 and 5 only",
+   "all five"
+  ],
+  "answer": 1,
+  "solution": "Prokaryotes have ribosomes (smaller, 70S), a cell membrane and DNA (in a loop, not in a nucleus). They have no nucleus and no membrane-bound organelles such as mitochondria."
+ },
+ {
+  "id": "BE-10",
+  "module": "bio",
+  "level": "esat",
+  "set": 1,
+  "topic": "Homeostasis: water balance",
+  "q": "A person drinks a large volume of water. Which row shows the changes that follow?",
+  "options": [
+   "ADH secretion decreases; collecting ducts become less permeable to water; urine volume increases",
+   "ADH secretion increases; collecting ducts become more permeable to water; urine volume decreases",
+   "ADH secretion decreases; collecting ducts become more permeable to water; urine volume increases",
+   "ADH secretion increases; collecting ducts become less permeable to water; urine volume increases",
+   "ADH secretion decreases; collecting ducts become less permeable to water; urine volume decreases",
+   "ADH secretion unchanged; collecting ducts become less permeable to water; urine volume increases"
+  ],
+  "answer": 0,
+  "solution": "Blood water potential rises and the hypothalamus detects this, so the pituitary releases less ADH. Collecting ducts become less permeable, less water is reabsorbed, and a larger volume of dilute urine is produced."
  }
 ];
